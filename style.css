@@ -215,7 +215,43 @@ timeline{
   font-weight: 300;
   margin-bottom: 20px;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
+#projects {
+  text-align: center;
+  padding: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project1, .project2 {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project1 img, .project2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .project1, .project2 {
+      width: 100%;
+  }
+}
 header {
   position: fixed;
   top: 0;
@@ -245,7 +281,7 @@ section {
 }
 
 #educations {
-  min-height: 68vh;
+  /* min-height: 95vh; */
   
   background-color: rgb(120, 0, 0);
 }
@@ -628,6 +664,7 @@ header .navbar ul li a:hover {
   margin-top: 4rem; 
 }
 
+
 .timeline {
   margin-top: -10px;
   background-color: rgb(120, 0, 0); 
@@ -654,6 +691,7 @@ header .navbar ul li a:hover {
   color: white;
   padding: 100px 0;
   text-align: center;
+  justify-content: center;
 }
 
 .project-container {
