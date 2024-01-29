@@ -354,10 +354,10 @@ header .navbar ul li a:hover {
 }
 /* Add this to your existing styles */
 .home {
-  background: url('bkc.jpg') center/cover no-repeat;
+  background: url('/images/bkc.jpg') center/cover no-repeat;
 }
 .contact-form{
-  background: url('bk2.jpg') center/cover no-repeat;
+  background: url('/images/bk2.jpg') center/cover no-repeat;
 }
 /* Adjust text color for better readability */
 .home h2, .home p {
@@ -665,7 +665,7 @@ header .navbar ul li a:hover {
 
 .project1 {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url(calc.jpg);
+  background-image: url(/images/calc.jpg);
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease;
@@ -692,7 +692,7 @@ header .navbar ul li a:hover {
 
 .project2 {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url(gym.png) ;
+  background-image: url(/images/gym.png) ;
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3s ease;
